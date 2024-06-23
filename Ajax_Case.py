@@ -4,6 +4,9 @@ from scipy.stats import percentileofscore
 import numpy as np
 from soccerplots.radar_chart import Radar
 
+st.set_page_config(
+                   page_icon = ':ajax:',
+                   layout="wide")
 
 #functies
 
